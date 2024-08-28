@@ -1,0 +1,230 @@
+<html>
+    <head>
+<title>INVOICE page</title>
+<style>
+    *{
+        
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    section{
+        background-color: rgba(6, 111, 76, 0.734);
+        padding: 20px;
+        min-height: 100vh;
+    
+    
+    }
+    .card{
+        width: 40%;
+        background-image: url(./image\ copy.png);
+        border-radius: 10px;
+        font-size: 50px;
+        color:  rgba(6, 111, 76, 0.734);
+        margin: auto;
+        min-height: 110vh;
+        padding: 20px;
+        background-size: cover;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    
+    }
+    .child1{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        margin-top: 20px;
+        align-items: center;
+        
+    }
+    .right{
+        display: flex;
+        
+        gap: 20px;
+        
+    }
+    .left{
+        border-right: 2px solid rgba(6, 111, 76, 0.734);
+        margin-right: 20px;
+        padding: 20px;
+        margin-left: 0px;
+        
+    }
+    table{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        border-bottom: 2px solid rgba(6, 111, 76, 0.734);
+
+    }
+    table th{
+        background-color: bisque;
+        color:rgba(6, 111, 76, 0.734); 
+        text-align: center;
+        padding: 10px;
+        align-items: center;
+        border-top: 2px solid rgba(6, 111, 76, 0.734) ;
+        border-bottom: 2px solid rgba(6, 111, 76, 0.734);
+    }
+    table td{
+        text-align: center;
+        padding: 10px;
+       
+        align-items: center;
+    }
+    
+    .last{
+        font-size: 15px;
+        color: black;
+        display: flex;
+        text-align: right;
+        margin-top: 20px;
+        gap: 50px;
+        justify-content: end;
+        
+        
+    }
+    .right1{
+        text-align: right;
+    }
+    .end{
+        font-size: 20px;
+        color: black;
+        display: flex;
+        text-align: right;
+        margin-top: 20px;
+        gap: 50px;
+        justify-content: end;
+        border-bottom: 2px solid rgba(6, 111, 76, 0.734);
+    
+    }
+    
+</style>
+<body>
+    <section>
+        <div class="card">
+        <div class="top">
+            <div >
+                <h1>INVOICE</h1>
+                
+
+            </div>
+         
+            <img src="./image.png" alt="" width="100px" height="100px">
+          
+        </div>
+        <div class="child1">
+            <div class="left">
+                <p>N.Invoice</p>
+                <b style="color: black;">512 254 285 </b>
+                
+
+                <p>Date</p>
+                <b style="color: black;">03/September/2024</b>
+                
+               
+
+                <p>Payment Method</p>
+                <b style="color: black;">Credit Card</b>
+                
+            </div>
+
+            <div class="right">
+                <div class ="left1">
+                    <p>N.Invoice</p>
+                    <b style="color: black;">512 254 111 </b>
+                    
+    
+                    <p>Date</p>
+                    <b style="color: black;">13/September/2024</b>
+                    
+                   
+    
+                    <p>Payment Method</p>
+                    <b style="color: black;">Credit Card</b>
+                </div>
+                <div class ="right1">
+                    <p>N.Invoice</p>
+                    <b style="color: black;">512 352 414 </b>
+                    
+    
+                    <p>Date</p>
+                    <b style="color: black;">20/September/2024</b>
+                    
+                   
+    
+                    <p>Payment Method</p>
+                    <b style="color: black;">Credit Card</b>
+                </div>
+            </div>
+        </div>
+        
+        <table>
+            <tr>
+                <th> Items</th>
+                <th>Quantity</th>
+                <th>Price </th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Session</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>Speaker</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>Lights</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>Fan</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>Equipments</td>
+                <td>0</td>
+                <td>0.00</td>
+                <td>0.00</td>
+            </tr>
+        </table>
+        <div class ="last">
+            <div>
+<b>SUBTOTAL</b><br>
+<b>TAX (10%) </b>
+            </div>
+            <div>
+<p>217.20</p>
+            </div>
+        </div>
+
+        <div class ="end">
+            <div>
+<b ">TOTAL</b><br>
+            </div>
+            <div>
+<p>217.20</p>
+            </div>
+        </div>
+        
+    <h3><p>Thank You !</p></h3>
+    <h6 style="font-size: medium;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h6>
+        </div> 
+    </section>
+</body>
+</html>
